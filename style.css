@@ -29,6 +29,19 @@ body{
     flex: 0 0 auto;
     width: 100%;
 }
+.col-lg-4 {
+    flex: 0 0 auto;
+    width: 33.3333%;
+    padding: 0px 1%;
+}
+.col-lg-7 {
+    flex: 0 0 auto;
+    width: 58.3333333333%;
+}
+.col-lg-5 {
+    flex: 0 0 auto;
+    width: 41.6666666667%;
+}
 .list-inline {
     padding-left: 0;
     list-style: none;
@@ -135,6 +148,10 @@ p {
 /*Buy Section End*/
 
 /*Find Animal Section Start*/
+.findAnimal{
+    padding-top: 60px;
+    padding-bottom:120px
+}
 .findAnimal-header h2{
     margin-bottom: 25px;
     font-weight: 600;
@@ -204,6 +221,84 @@ p {
 
 
 
+/* Description Section Start */
+.dogDescription{
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+.description-content h2{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 1.2;
+    letter-spacing: -2px;
+    color: #737373;
+    width: 50%;
+    text-align: center;
+}
+.description-content p{
+    font-size:20px;
+    padding-right: 25px;
+    line-height:1.6;
+}
+.description-content ul {
+    margin-top: 40px;
+}
+.description-content ul li p{
+    color: #7e7e7e;
+    font-size:20px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+.description-img{
+    margin-bottom: 50px;
+}
+/* Description Section End */
+
+/* Blog Section Start */
+.blog{
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+.blog-header{
+    text-align: center;
+}
+.blog-header h2{
+    color: #797979;
+    font-size:26px;
+    margin-bottom: 20px;
+}
+.card{
+    margin-bottom: 30px;
+}
+.card-text p{
+    margin: 15px 0px;
+    font-size:26px;
+    color: #585858;
+    font-weight: 500;
+    line-height: 1.6;
+}
+.card-footer p{
+    font-size: 18px;
+    color: #848484;
+}
+/* Blog Section End */
+
+/*Footer Section Start*/
+.footer{
+    background:#69615C;
+    padding:10px 0px;
+    text-align:center;
+    color: #fff;
+}
+.copyright h6{
+    font-size:16px;
+}
+/*Footer Section End*/
+
+
 
 
 
@@ -218,6 +313,9 @@ p {
     .col-lg-2 {
         flex: 0 0 auto;
         width: 100%;
+    }
+    .col-lg-4 {
+        width:100%;
     }
     .col-lg-3 {
         width: 100%;
@@ -291,6 +389,9 @@ p {
         margin-left: -10px;
     }   
     
+    .findAnimal-img {
+        margin-bottom: 12px;
+    }
     /*Find Animal Section End*/
 
 
@@ -300,6 +401,9 @@ p {
     .col-lg-2 {
         flex: 0 0 auto;
         width: 100%;
+    }
+    .col-lg-4 {
+        width:100%;
     }
     .offset-lg-6 {
         margin-left: 10%;
@@ -373,13 +477,18 @@ p {
     .find-button ul .switch:last-child img{
         margin-left: -10px;
     }   
-    
+    .findAnimal-img {
+        margin-bottom: 15px;
+    }
     /*Find Animal Section End*/
 }
 @media (min-width:576px) and (max-width:767px) {
     .col-lg-2 {
         flex: 0 0 auto;
         width: 100%;
+    }
+    .col-lg-4 {
+        width:50%;
     }
     .col-lg-3 {
         flex: 0 0 auto;
@@ -451,7 +560,9 @@ p {
     .find-button ul .switch:last-child img{
         margin-left: -10px;
     }   
-    
+    .findAnimal-img {
+        margin-bottom: 20px;
+    }
     /*Find Animal Section End*/
 
 }
@@ -460,6 +571,9 @@ p {
         flex: 0 0 auto;
         width: 25%;
         margin-left: 10%;
+    }
+    .col-lg-4 {
+        width:50%;
     }
     .col-lg-3 {
         flex: 0 0 auto;
@@ -531,7 +645,9 @@ p {
     .find-button ul .switch:last-child img{
         margin-left: -10px;
     }   
-    
+    .findAnimal-img {
+        margin-bottom: 20px;
+    }
     /*Find Animal Section End*/
 
 
