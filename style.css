@@ -244,7 +244,12 @@ p {
     line-height:1.6;
 }
 .description-content ul {
+    margin-left: 40px;
     margin-top: 40px;
+}
+.description-content ul li::marker{
+    color: #7e7e7e;
+    font-size:20px;
 }
 .description-content ul li p{
     color: #7e7e7e;
