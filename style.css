@@ -1001,6 +1001,9 @@ p {
         flex: 0 0 auto;
         width: 35%;
     }
+    .find-button ul .gear{
+        margin-left: 0px;
+    }
     /*Find Animal Section End*/
 
     /* Blog Section Start */
