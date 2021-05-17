@@ -1,0 +1,654 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.row{
+    padding: 0px 16px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    max-width: 1320px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.offset-lg-6 {
+    margin-left: 50%;
+}
+.col-lg-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+.col-lg-12 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+}
+.list-inline-item {
+    display: inline-block;
+}
+.activebg{
+    background: #C20039!important;
+}
+.active{
+    color: #C20039!important;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.col-lg-2 {
+    flex: 0 0 auto;
+    width: 16.6666666667%;
+}
+.col-lg-3 {
+    flex: 0 0 auto;
+    width: 25%;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+/*Banner Section Start*/
+.banner{
+    background:url('./img/banner.jpg') center center / cover no-repeat;
+    display:flex;
+    align-items: center;
+    min-height: 100vh;
+}
+.banner-content{
+    color:#fff;
+}
+.banner-content p:first-child{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+.banner-content h1{
+    font-weight: 700;
+    font-size: 95px;
+    line-height: 1.2;
+    letter-spacing: -2px;
+}
+.b_text{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: 0px;
+    border-left: 2px solid #fff;
+    padding-left: 20px;
+}
+.banner-content button{
+    margin-top: 50px;
+    font-size: 14px;
+    padding: 12px 10px;
+    min-width: 175px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #e5a62d;
+    border-color: transparent;
+    transition: 0.4s ease-in-out;
+}
+.banner-content button:hover{
+    color: #ffffff;
+    background-color: #000000;
+    border-color: transparent;
+}
+
+/*Banner Section End*/
+
+
+/*Buy Section Start*/
+.buy{
+    padding: 120px 0px;
+    text-align: center;
+}
+.buy-content h2{
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 1.2;
+    letter-spacing: -2px;
+    color: #737373;
+}
+.buy-content p{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 1.6;
+    letter-spacing: 0px;
+    border-left: 2px solid #fff;
+    width:60%;   
+}
+/*Buy Section End*/
+
+/*Find Animal Section Start*/
+.findAnimal-header h2{
+    margin-bottom: 25px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 1.2;
+    color: #1B6230;
+    
+}
+.find-button ul li{
+    margin: 0px 10px;
+}
+.find-button ul li img{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background:linear-gradient(to bottom,#6CA682,#438559);
+    padding: 6px;
+}
+.find-button ul li .activebg{
+    margin-left: 40px;
+}
+.find-button ul .gear{
+    margin-left: 40px;
+}
+.find-button ul .gear p,
+.find-button ul .switch p{
+   font-size:12px;
+   margin-bottom: 0px;
+}   
+.find-button ul .gear img{
+   margin-left: 10px;
+}   
+.find-button ul .switch{
+   margin: 0px 2px;
+}   
+.find-button ul .switch img{
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    background:none;
+    margin-bottom: 13px;
+}   
+.swtichbtn{
+    margin-left: 30px!important;
+}  
+.find-button ul .switch:last-child img{
+    margin-left: -25px;
+}
+.findAnimalMt{
+    margin-top: 25px;
+}
+.findAnimal-img{
+    position: relative;
+    margin-bottom: 24px;
+}
+.findAnimal-img p{
+    position: absolute;
+    top: 15px;
+    left: 0;
+    font-size: 22px;
+    color: #fff;
+    background: #C20039;
+    padding: 0px 10px;
+}
+
+/*Find Animal Section End*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:320px) and (max-width:450px) {
+    .col-lg-2 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    .col-lg-3 {
+        width: 100%;
+    }
+    .offset-lg-6 {
+        margin-left: 0%;
+    }
+    .col-lg-6 {
+        width: 100%;
+    }
+    .banner-content p:first-child{
+        font-size: 20px;
+    }
+    .banner-content h1{
+        font-size: 42px;
+    }
+    .b_text{
+        font-size: 16px;
+        padding-left: 10px;
+    }
+    .banner-content button{
+        margin-top: 35px;
+        min-width: 150px;
+    }
+
+    /*Buy Section Start*/
+    .buy{
+        padding: 75px 0px;
+    }
+    .buy-content h2{
+        font-size: 36px;
+    }
+    .buy-content p{
+        margin-top: 30px;
+        width:100%;   
+        font-size: 18px;
+    }
+    /*Buy Section End*/
+
+    /*Find Animal Section Start*/
+    .findAnimal-header h2 {
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .find-button{
+        text-align: center;
+        margin: 5px 0px;
+    }
+    .find-button ul li .activebg{
+        margin-left: 0px;
+    }
+    .find-button ul .gear{
+        margin-left: 30px;
+    }
+    .find-button ul .gear p,
+    .find-button ul .switch p{
+       font-size:12px;
+       margin-bottom: 0px;
+    }   
+    .find-button ul .gear img{
+       margin-left: 10px;
+    }   
+    .find-button ul .switch{
+       margin: 0px 2px;
+    }   
+    .swtichbtn{
+        margin-left: 10px!important;
+    }  
+    .find-button ul .switch:last-child img{
+        margin-left: -10px;
+    }   
+    
+    /*Find Animal Section End*/
+
+
+
+}
+@media (min-width:451px) and (max-width:575px) {
+    .col-lg-2 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    .offset-lg-6 {
+        margin-left: 10%;
+    }
+    .col-lg-6 {
+        width: 80%;
+    }
+    .col-lg-3 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    .banner-content p:first-child{
+        font-size: 20px;
+    }
+    .banner-content h1{
+        font-size: 45px;
+    }
+    .b_text{
+        font-size: 16px;
+        padding-left: 10px;
+    }
+    .banner-content button{
+        margin-top: 35px;
+        min-width: 150px;
+    }
+    /*Buy Section Start*/
+    .buy{
+        padding: 80px 0px;
+    }
+    .buy-content h2{
+        font-size: 38px;
+    }
+    .buy-content p{
+        margin-top: 30px;
+        width:100%;   
+        font-size: 18px;
+    }
+    /*Buy Section End*/
+
+
+    /*Find Animal Section Start*/
+    .findAnimal-header h2 {
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .find-button{
+        text-align: center;
+        margin: 5px 0px;
+    }
+    .find-button ul li .activebg{
+        margin-left: 0px;
+    }
+    .find-button ul .gear{
+        margin-left: 30px;
+    }
+    .find-button ul .gear p,
+    .find-button ul .switch p{
+       font-size:12px;
+       margin-bottom: 0px;
+    }   
+    .find-button ul .gear img{
+       margin-left: 10px;
+    }   
+    .find-button ul .switch{
+       margin: 0px 2px;
+    }   
+    .swtichbtn{
+        margin-left: 10px!important;
+    }  
+    .find-button ul .switch:last-child img{
+        margin-left: -10px;
+    }   
+    
+    /*Find Animal Section End*/
+}
+@media (min-width:576px) and (max-width:767px) {
+    .col-lg-2 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    .col-lg-3 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    .offset-lg-6 {
+        margin-left: 15%;
+    }
+    .col-lg-6 {
+        width: 70%;
+    }
+    .banner-content p:first-child{
+        font-size: 22px;
+    }
+    .banner-content h1{
+        font-size: 55px;
+    }
+    .b_text{
+        padding-left: 10px;
+    }
+    .banner-content button{
+        margin-top: 35px;
+        min-width: 150px;
+    }
+     /*Buy Section Start*/
+     .buy{
+        padding: 85px 0px;
+    }
+    .buy-content h2{
+        font-size: 45px;
+    }
+    .buy-content p{
+        margin-top: 30px;
+        width:90%;   
+        font-size: 18px;
+    }
+    /*Buy Section End*/
+
+    /*Find Animal Section Start*/
+    .findAnimal-header h2 {
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .find-button{
+        text-align: center;
+        margin: 5px 0px;
+    }
+    .find-button ul li .activebg{
+        margin-left: 0px;
+    }
+    .find-button ul .gear{
+        margin-left: 30px;
+    }
+    .find-button ul .gear p,
+    .find-button ul .switch p{
+       font-size:12px;
+       margin-bottom: 0px;
+    }   
+    .find-button ul .gear img{
+       margin-left: 10px;
+    }   
+    .find-button ul .switch{
+       margin: 0px 2px;
+    }   
+    .swtichbtn{
+        margin-left: 10px!important;
+    }  
+    .find-button ul .switch:last-child img{
+        margin-left: -10px;
+    }   
+    
+    /*Find Animal Section End*/
+
+}
+@media (min-width:768px) and (max-width:991px) {
+    .col-lg-2 {
+        flex: 0 0 auto;
+        width: 25%;
+        margin-left: 10%;
+    }
+    .col-lg-3 {
+        flex: 0 0 auto;
+        width: 35%;
+    }
+    .offset-lg-6 {
+        margin-left: 15%;
+    }
+    .col-lg-6 {
+        width: 80%;
+    }
+    .banner-content h1{
+        font-size: 65px;
+    }
+    .b_text{
+        padding-right: 10%;
+    }
+    .banner-content button{
+        margin-top: 35px;
+        min-width: 150px;
+    }
+    
+     /*Buy Section Start*/
+     .buy{
+        padding: 85px 0px;
+    }
+    .buy-content h2{
+        font-size: 50px;
+    }
+    .buy-content p{
+        margin-top: 30px;
+        width:90%;   
+        font-size: 18px;
+    }
+    /*Buy Section End*/
+
+    /*Find Animal Section Start*/
+    .findAnimal-header  {
+        text-align: center;
+    }
+    .findAnimal-header h2 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .find-button{
+        text-align: center;
+        margin: 5px 0px;
+    }
+    .find-button ul li .activebg{
+        margin-left: 0px;
+    }
+    .find-button ul .gear{
+        margin-left: 30px;
+    }
+    .find-button ul .gear p,
+    .find-button ul .switch p{
+       font-size:12px;
+       margin-bottom: 0px;
+    }   
+    .find-button ul .gear img{
+       margin-left: 10px;
+    }   
+    .find-button ul .switch{
+       margin: 0px 2px;
+    }   
+    .swtichbtn{
+        margin-left: 10px!important;
+    }  
+    .find-button ul .switch:last-child img{
+        margin-left: -10px;
+    }   
+    
+    /*Find Animal Section End*/
+
+
+}
+@media (min-width:992px) and (max-width:1199px) {
+    .offset-lg-6 {
+        margin-left: 40%;
+    }
+
+    .banner-content h1{
+        font-size: 70px;
+    }
+    .b_text{
+        font-size: 19px;
+    }
+    .banner-content button{
+        margin-top: 40px
+    }
+    
+     /*Buy Section Start*/
+     .buy{
+        padding: 85px 0px;
+    }
+    .buy-content h2{
+        font-size: 60px;
+    }
+    .buy-content p{
+        margin-top: 30px;
+        width:80%;   
+        font-size: 18px;
+    }
+    /*Buy Section End*/
+
+    /*Find Animal Section Start*/
+    .col-lg-2 {
+        flex: 0 0 auto;
+        width: 25%;
+    }
+    .col-lg-3 {
+        flex: 0 0 auto;
+        width: 35%;
+    }
+    /*Find Animal Section End*/
+}
+@media (min-width:1200px) and (max-width:1399px) {
+
+    .banner-content h1{
+        font-size: 75px;
+    }
+    .banner-content button{
+        margin-top: 40px
+    }
+
+     /*Buy Section Start*/
+     .buy{
+        padding: 90px 0px;
+    }
+    .buy-content h2{
+        font-size: 65px;
+    }
+    .buy-content p{
+        margin-top: 30px;
+        width:70%;   
+        font-size: 18px;
+    }
+    /*Buy Section End*/
+    /*Find Animal Section Start*/
+    .col-lg-2 {
+        flex: 0 0 auto;
+        width: 25%;
+    }
+    .col-lg-3 {
+        flex: 0 0 auto;
+        width: 35%;
+    }
+    /*Find Animal Section End*/
+}
+@media (min-width:1400px) and (max-width:1599px) {
+
+    .banner-content h1{
+        font-size: 75px;
+    }
+    .banner-content button{
+        margin-top: 40px
+    }
+     /*Buy Section Start*/
+     .buy{
+        padding: 90px 0px;
+    }
+    .buy-content h2{
+        font-size: 65px;
+    }
+    .buy-content p{
+        margin-top: 30px;
+        width:70%;   
+        font-size: 18px;
+    }
+    /*Buy Section End*/
+}
+@media (min-width:1600px) and (max-width:1799px) {
+
+    .banner-content h1{
+        font-size: 75px;
+    }
+    .banner-content button{
+        margin-top: 40px
+    }
+     /*Buy Section Start*/
+     .buy{
+        padding: 100px 0px;
+    }
+    .buy-content h2{
+        font-size: 70px;
+    }
+    .buy-content p{
+        margin-top: 30px;   
+        font-size: 20px;
+    }
+    /*Buy Section End*/
+}
